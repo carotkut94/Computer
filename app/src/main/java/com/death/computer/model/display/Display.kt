@@ -1,5 +1,4 @@
-package com.mindorks.bootcamp.mindorksdaggerexample.model.display
-
+package com.death.computer.model.display
 import android.graphics.Picture
 
 interface Display {
