@@ -1,7 +1,8 @@
-package com.death.computer
+package com.death.computer.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.death.computer.R
 
 class MainActivity : AppCompatActivity() {
 
