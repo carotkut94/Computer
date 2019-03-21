@@ -6,7 +6,7 @@ import dagger.Module
 import dagger.Provides
 
 @Module
-class ActivityModule (val actvity: AppCompatActivity) {
+class ActivityModule (val activity: AppCompatActivity) {
     @Provides
-    fun provideActivity(): Activity = actvity
+    fun provideActivity(): Activity = activity
 }

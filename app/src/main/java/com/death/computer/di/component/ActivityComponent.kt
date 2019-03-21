@@ -18,11 +18,12 @@ import dagger.Component
         SpecializedComputerModule::class
     ]
 )
-interface ActivityComponent{
-    fun inject(activity:MainActivity)
+interface ActivityComponent {
+
+    fun inject(activity: MainActivity)
 
     @SpecializedComputer
-    fun getComputer():Computer
+    fun getComputer(): Computer
 
     fun getActivity(): Activity
 }

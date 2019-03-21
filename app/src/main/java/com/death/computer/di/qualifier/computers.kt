@@ -6,10 +6,10 @@ import javax.inject.Qualifier
 @Retention(AnnotationRetention.BINARY)
 annotation class GeneralComputer
 
-
 @Qualifier
 @Retention(AnnotationRetention.BINARY)
 annotation class SpecializedComputer
+
 
 @Qualifier
 @Retention(AnnotationRetention.BINARY)
